@@ -1,0 +1,15 @@
+<div *ngIf="data">
+    <p class="title">Cars</p>
+    <ul>
+        <li class="box" *ngFor="let item of data" role="presentation">
+            <div class="field is-grouped">
+                <p class="control">
+                    {{item.name}}
+                </p>
+                <p class="control">
+                    <button class="button is-small" (click)="handleClick(item)">Editar</button>
+                </p>
+            </div>
+        </li>
+    </ul>    
+</div>

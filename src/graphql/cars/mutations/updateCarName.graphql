@@ -1,0 +1,6 @@
+mutation updateCarName($_id:String!, $newName:String!) {
+    updateCarName(_id:$_id, newName:$newName){
+        _id
+        name        
+    }
+}

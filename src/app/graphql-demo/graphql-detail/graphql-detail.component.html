@@ -1,0 +1,19 @@
+<div class="box">
+    <p class="title">Edit Car</p>
+    <div class="field" *ngIf="editingCar._id">
+        <label class="label" for="id">
+            id
+        </label>
+        <input name="id" class="input" type="text" [(ngModel)]="editingCar._id" placeholder="Car Id" readOnly />
+    </div>
+    <div class="field">
+        <label class="label" for="id">
+            Name
+        </label>
+        <input name="id" class="input" type="text" [(ngModel)]="editingCar.name" placeholder="Car Name" />
+    </div>
+    <div class="buttons">
+        <button class="button is-white" (click)="cancel()">Cancel</button>
+        <button class="button is-info" (click)="saveCar()">Save</button>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+query car($name:String) {
+    car(name: $name){
+        name
+        _id
+    }
+}

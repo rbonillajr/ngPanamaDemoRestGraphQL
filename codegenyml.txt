@@ -1,0 +1,11 @@
+overwrite: true
+schema: "https://o5x5jzoo7z.sse.codesandbox.io/graphql"
+generates:
+  ./src/interfaces/types.ts:
+    config:
+      withHooks: true
+      scalars:
+        Date: Date
+        DateTime: Date
+    plugins:
+      - "typescript"      

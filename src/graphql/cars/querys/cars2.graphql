@@ -1,0 +1,5 @@
+query car2($name:String) {
+    car(name: $name){
+        name        
+    }
+}

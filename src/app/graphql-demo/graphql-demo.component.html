@@ -1,0 +1,10 @@
+<div class="content-list">
+  <div *ngIf="loading">
+    Loading...
+  </div>
+  <div *ngIf="error">
+    Error :(
+  </div>
+  <app-graphql-list *ngIf="!selected" [data]="data" (clicked)="onClick($event)"></app-graphql-list>
+  <app-graphql-detail *ngIf="selected" [car]="selected" (unselect)="unselect()" (save)="save($event)"></app-graphql-detail>
+</div>

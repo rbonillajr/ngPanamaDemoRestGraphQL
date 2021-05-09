@@ -1482,7 +1482,7 @@
     tslib "~2.0.0"
     upper-case "2.0.1"
 
-"@graphql-codegen/typescript-apollo-angular@^1.15.0":
+"@graphql-codegen/typescript-apollo-angular@1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-apollo-angular/-/typescript-apollo-angular-1.15.0.tgz#3a208856c0c800e124a8770af44bad950f0076d5"
   integrity sha512-ifIljgvzjMKZSCdOxDOl/DTQrICRVaX1arKz5LdMnrxkUa7ECV87Qlj7/mXlgEaobPVfb8FVNxw7m9prCWL8tg==
@@ -1493,7 +1493,7 @@
     camel-case "4.1.1"
     tslib "~2.0.0"
 
-"@graphql-codegen/typescript-operations@^1.15.0":
+"@graphql-codegen/typescript-operations@1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-1.15.0.tgz#2e81f08fc999f244d46aef06460299566ff65ba1"
   integrity sha512-EPRhgrCPgtSHvkHN68MY9KnOTR36nSuFs6pIUhD+bMCWCNfEosY6/jwGIAhBjoOrxqdf1RA793Siznb2dyJJMQ==
@@ -1504,7 +1504,7 @@
     auto-bind "~4.0.0"
     tslib "~2.0.0"
 
-"@graphql-codegen/typescript@1.15.0", "@graphql-codegen/typescript@^1.15.0":
+"@graphql-codegen/typescript@1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-1.15.0.tgz#7dd5c66df2d5c7050543cbf0fd897b1d4451a137"
   integrity sha512-9O0jJGzEdgpo/AwxA3j4FmZFI8pxcJAvaBOOt7Xc/eU5XcTckRl7cDjQaRzNh4DyS4uZ56+AMNqelf015mz3qg==
@@ -5337,9 +5337,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4, hosted-git-info@^2.7.1:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hosted-git-info@^3.0.2:
   version "3.0.4"
